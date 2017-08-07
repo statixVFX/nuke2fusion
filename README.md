@@ -17,6 +17,8 @@ The Layouts are inspired by the default workspaces in Nuke8+. The following layo
   <img src="layouts.jpg"/>
 </p>
 
+The layouts are stored in the Layout/ folder.
+
 
 ## Macros (gizmos)
 * Nuke names to Fusion nodes are provided, but upon creation they change to the Fusion equavalent for future reference.
@@ -27,6 +29,7 @@ The Layouts are inspired by the default workspaces in Nuke8+. The following layo
   <img src="newNodes.jpg"/>
 </p>
 
+The macros are stored in the macros/nuke2fusion/ folder.
 
 ## Hotkeys
 A set of default hotkeys for creating nodes, toggling view controls on/off, disabling nodes and more. With a small addition of using capital 
@@ -37,6 +40,8 @@ letters to indicate 3d nodes.
 * Upper case letters for 3d nodes (M)erge3d, (R)enderer3d, (T)ransform3d etc..
 * (d) for disable/passthrough node
 * (q) (while focused on the viewer) disables/enables on-screen controls
+
+The hotkeys can be configured and edited under the Config/fusion.fu file.
 
 # Installation
 Clone or copy the folders into your userprefs folder. 
