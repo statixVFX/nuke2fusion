@@ -14,7 +14,7 @@ The Layouts are inspired by the default workspaces in Nuke8+. The following layo
 * Scripting
 
 <p align="center">
-  <img src="layout.jpg" width="350"/>
+  <img src="layouts.jpg"/>
 </p>
 
 
