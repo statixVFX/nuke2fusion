@@ -29,12 +29,12 @@ letters to indicate 3d nodes.
 * (q) (while focused on the viewer) disables/enables on-screen controls
 
 # Installation
-Clone or copy the folders into your userprefs folder.
+Clone or copy the folders into your userprefs folder. 
 
-Linux :
-/home/statix/Documents/BlackmagicDesign/Fusion/
+If you havent set your userprefs yet, you can point to a place to store Fusion data pr.user 
+* open Fusion
+* File preferences
+* Path map
+* Select "UserPaths" and point it to your downloaded nuke2fusion folder.
 
-MacOS :
-
-Win :
 
