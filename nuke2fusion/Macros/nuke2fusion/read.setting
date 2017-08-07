@@ -1,0 +1,14 @@
+{
+	Tools = ordered() {
+		Loader2 = Loader {
+			Clips = {
+			},
+			CtrlWZoom = false,
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 782.309, 343.045 } },
+		}
+	},
+	ActiveTool = "Loader"
+}

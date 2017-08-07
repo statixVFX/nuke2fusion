@@ -1,0 +1,36 @@
+{
+	Tools = ordered() {
+		ImagePlane3D1 = ImagePlane3D {
+			Inputs = {
+				["SurfacePlaneInputs.SubdivisionWidth"] = Input { Value = 128, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 1, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 1, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1453, 1029 } },
+		},
+		Note1 = Note {
+			Inputs = {
+				Comments = Input { Value = "Plug the color in the imageplane and the pworld into the displace3d, adjust quality of geo in the imageplane subdiv.", }
+			},
+			ViewInfo = StickyNoteInfo {
+				Pos = { 1544, 1006 },
+				Flags = {
+					Expanded = true
+				},
+				Size = { 196, 179.3 }
+			},
+		},
+		Displace3D1 = Displace3D {
+			Inputs = {
+				SceneInput = Input {
+					SourceOp = "ImagePlane3D1",
+					Source = "Output",
+				},
+				Channel = Input { Value = 6, },
+				Mode = Input { Value = 1, },
+				Scale = Input { Value = 1, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1453, 1152 } },
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	Tools = ordered() {
+		Resize1 = BetterResize {
+			CtrlWZoom = false,
+			Inputs = {
+				Width = Input { Value = 2048, },
+				Height = Input { Value = 1156, },
+				PixelAspect = Input { Value = { 1, 1 }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1370, 387 } },
+		}
+	},
+	ActiveTool = "Resize1"
+}

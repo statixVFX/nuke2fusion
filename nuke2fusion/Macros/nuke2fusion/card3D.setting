@@ -1,0 +1,9 @@
+{
+	Tools = ordered() {
+		DVE1 = DVE {
+			CtrlWZoom = false,
+			ViewInfo = OperatorInfo { Pos = { 805.491, 167.039 } },
+		}
+	},
+	ActiveTool = "DVE1"
+}

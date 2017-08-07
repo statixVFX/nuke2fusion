@@ -1,0 +1,9 @@
+{
+	Tools = ordered() {
+		Background1 = Background {
+			CtrlWZoom = false,
+			ViewInfo = OperatorInfo { Pos = { 1285, 704 } },
+		}
+	},
+	ActiveTool = "Background1"
+}

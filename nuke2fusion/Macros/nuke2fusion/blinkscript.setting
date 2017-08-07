@@ -1,0 +1,18 @@
+{
+	Tools = ordered() {
+		Fuses_aka_blinkscript = Note {
+			NameSet = true,
+			Inputs = {
+				Comments = Input { Value = "A special form of FusionScript is the Fuse, which is a tool built using Lua that acts much like a \nplug-in created from the C++ SDK, but without needing to be precompiled. This allows it to be \nused in both Fusion and Fusion Studio, but it also allows you to create nearly any effect you can \nconceive of. \nLua is a very fast scripting language, but on high resolution images, executing pixel by pixel, \neven it would be slow compared to a real C++ plug-in. Fortunately, there are special \nenhancements for Fuses that greatly speed up the execution so that fully interactive rendering \ncan occur.\n\nGPU / CPU support.\n\nCheck out the help docs for more, or visit the fusion forums (www.steakunderwater.com or the BMD official forum for more)", }
+			},
+			ViewInfo = StickyNoteInfo {
+				Pos = { 731.654, 157.595 },
+				Flags = {
+					Expanded = true
+				},
+				Size = { 548.87, 205.057 }
+			},
+		}
+	},
+	ActiveTool = "Fuses_aka_blinkscript"
+}

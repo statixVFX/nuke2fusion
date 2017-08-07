@@ -1,0 +1,12 @@
+{
+	Tools = ordered() {
+		EdgeDetect = Filter {
+			CtrlWZoom = false,
+			Inputs = {
+				FilterType = Input { Value = 4, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1395, 511 } },
+		}
+	},
+	ActiveTool = "EdgeDetect1"
+}

@@ -1,0 +1,12 @@
+{
+	Tools = ordered() {
+		TimeStretcher1 = TimeStretcher {
+			CtrlWZoom = false,
+			Inputs = {
+				SourceTime = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1482, 512 } },
+		}
+	},
+	ActiveTool = "TimeStretcher1"
+}

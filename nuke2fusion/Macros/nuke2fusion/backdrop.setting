@@ -1,0 +1,11 @@
+{
+	Tools = ordered() {
+		Underlay1 = Underlay {
+			ViewInfo = UnderlayInfo {
+				Pos = { 1001.24, 357.641 },
+				Size = { 172, 156.573 }
+			},
+		}
+	},
+	ActiveTool = "Underlay1"
+}

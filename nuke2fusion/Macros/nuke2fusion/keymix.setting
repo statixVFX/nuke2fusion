@@ -1,0 +1,9 @@
+{
+	Tools = ordered() {
+		Keymix = Dissolve {
+			CtrlWZoom = false,
+			ViewInfo = OperatorInfo { Pos = { 1285, 704 } },
+		}
+	},
+	ActiveTool = "keymix_dissolve_1"
+}

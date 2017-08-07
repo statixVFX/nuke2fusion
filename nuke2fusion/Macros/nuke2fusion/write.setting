@@ -1,0 +1,28 @@
+{
+	Tools = ordered() {
+		Saver1 = Saver {
+			CtrlWZoom = false,
+			Inputs = {
+				ProcessWhenBlendIs00 = Input { Value = 0, },
+				Clip = Input {
+					Value = Clip {
+						Length = 0,
+						Saving = true,
+						TrimIn = 0,
+						ExtendFirst = 0,
+						ExtendLast = 0,
+						Loop = 1,
+						AspectMode = 1,
+						Depth = 1,
+						GlobalStart = -2000000000,
+						GlobalEnd = 0
+					},
+				},
+				OutputFormat = Input { Value = FuID { "TargaFormat" }, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 727.361, 473.547 } },
+		}
+	},
+	ActiveTool = "Saver1"
+}

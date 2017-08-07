@@ -1,0 +1,13 @@
+{
+	Tools = ordered() {
+		AlembicMesh3D1 = SurfaceAlembicMesh {
+			CtrlWZoom = false,
+			Inputs = {
+				["ObjectID.ObjectID"] = Input { Value = 5, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 5, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 857.005, 369.661 } },
+		}
+	},
+	ActiveTool = "AlembicMesh3D1"
+}

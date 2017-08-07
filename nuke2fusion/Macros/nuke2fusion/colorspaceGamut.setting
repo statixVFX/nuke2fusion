@@ -1,0 +1,9 @@
+{
+	Tools = ordered() {
+		ColorSpace_gamut = GamutConvert {
+			CtrlWZoom = false,
+			ViewInfo = OperatorInfo { Pos = { 1407, 522 } },
+		}
+	},
+	ActiveTool = "ColorSpaceGamut1"
+}

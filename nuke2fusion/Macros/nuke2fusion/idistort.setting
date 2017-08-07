@@ -1,0 +1,12 @@
+{
+	Tools = ordered() {
+		Displace1 = Displace {
+			CtrlWZoom = false,
+			Inputs = {
+				Type = Input { Value = 1, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1297, 712 } },
+		}
+	},
+	ActiveTool = "Displace1"
+}

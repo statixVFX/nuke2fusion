@@ -1,0 +1,30 @@
+{
+	Tools = ordered() {
+		OpticalFlow1 = Dimension.OpticalFlow {
+			ViewInfo = OperatorInfo { Pos = { 1455, 671 } },
+		},
+		TimeStretcher2 = TimeStretcher {
+			CtrlWZoom = false,
+			Inputs = {
+				SourceTime = Input {
+					SourceOp = "TimeStretcher2SourceTime",
+					Source = "Value",
+				},
+				InterpolateBetweenFrames = Input { Value = 2, },
+				SampleSpread = Input { Disabled = true, },
+				Input = Input {
+					SourceOp = "OpticalFlow1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1455, 704 } },
+		},
+		TimeStretcher2SourceTime = BezierSpline {
+			SplineColor = { Red = 233, Green = 217, Blue = 243 },
+			NameSet = true,
+			KeyFrames = {
+				[1001] = { 0, Flags = { Linear = true } }
+			}
+		}
+	}
+}

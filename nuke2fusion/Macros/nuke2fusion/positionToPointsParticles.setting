@@ -1,0 +1,94 @@
+{
+	Tools = ordered() {
+		pImageEmitter1 = pImageEmitter {
+			ID = 66,
+			Inputs = {
+				XDensity = Input { Value = 0.25, },
+				YDensity = Input { Value = 0.25, },
+				AlphaThreshold = Input { Value = 0.007, },
+				CreateParticlesEveryFrame = Input { Value = 1, },
+				Lifespan = Input { Value = 1, },
+				["ParticleStyle.ColorOverLife"] = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 1, 1, 1, 1 }
+						}
+					},
+				},
+				["ParticleStyle.SizeOverLife"] = Input {
+					SourceOp = "pImageEmitter1SizeoverLife",
+					Source = "Value",
+				},
+				["ParticleStyle.BlurOverLife"] = Input {
+					SourceOp = "pImageEmitter1BluroverLife2D",
+					Source = "Value",
+				},
+				["ParticleStylePoint.SubPixelRendered"] = Input { Value = 1, }
+			},
+			ViewInfo = OperatorInfo { Pos = { 1147, 800 } },
+		},
+		pImageEmitter1SizeoverLife = LUTBezier {
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0.5, RH = { 0.3, 0.5 }, Flags = { Linear = true } },
+					[1] = { 0.5, LH = { 0.7, 0.5 }, Flags = { Linear = true } }
+				}
+			},
+			SplineColor = { Red = 192, Green = 128, Blue = 64 },
+			NameSet = true,
+		},
+		pImageEmitter1BluroverLife2D = LUTBezier {
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0.5, RH = { 0.3, 0.5 }, Flags = { Linear = true } },
+					[1] = { 0.5, LH = { 0.7, 0.5 }, Flags = { Linear = true } }
+				}
+			},
+			SplineColor = { Red = 192, Green = 128, Blue = 64 },
+			NameSet = true,
+		},
+		Note2 = Note {
+			Inputs = {
+				Comments = Input { Value = "Plug the color into the pImageEmitter and the pworld into pCustom. This generates and kills particles on each frame. Slower than the imageplane displacement method but equally useful.\n\nAdust the X Density in the pImageEmitter for point amount/quality", }
+			},
+			ViewInfo = StickyNoteInfo {
+				Pos = { 1253, 799 },
+				Flags = {
+					Expanded = true
+				},
+				Size = { 196, 179.3 }
+			},
+		},
+		pCustom1 = pCustom {
+			ID = 74,
+			Inputs = {
+				PositionXExpression = Input { Value = "getr1b(pxi1+0.5,pyi1+0.5)", },
+				PositionYExpression = Input { Value = "getg1b(pxi1+0.5,pyi1+0.5)", },
+				PositionZExpression = Input { Value = "getb1b(pxi1+0.5,pyi1+0.5)", },
+				Input = Input {
+					SourceOp = "pImageEmitter1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1147, 931 } },
+		},
+		pRender1 = pRender {
+			Inputs = {
+				_MotionBlurWarning = Input { Disabled = true, },
+				GlobalIn = Input { Value = 1001, },
+				GlobalOut = Input { Value = 1100, },
+				Width = Input { Value = 2048, },
+				Height = Input { Value = 1156, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				IntegrationMethod = Input { Value = FuID { "RK4" }, },
+				["MaterialID.MaterialID"] = Input { Value = 3, },
+				["ObjectID.ObjectID"] = Input { Value = 3, },
+				Input = Input {
+					SourceOp = "pCustom1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1147, 982 } },
+		}
+	}
+}

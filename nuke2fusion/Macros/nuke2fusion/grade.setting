@@ -1,0 +1,9 @@
+{
+	Tools = ordered() {
+		ColorCorrector1 = ColorCorrector {
+			CtrlWZoom = false,
+			ViewInfo = OperatorInfo { Pos = { 1285, 704 } },
+		}
+	},
+	ActiveTool = "ColorCorrector1"
+}

@@ -1,0 +1,25 @@
+{
+	Tools = ordered() {
+		Renderer3D1 = Renderer3D {
+			CtrlWZoom = false,
+			CustomData = {
+				ToolVersion = 1,
+			},
+			Inputs = {
+				GlobalIn = Input { Value = 1001, },
+				GlobalOut = Input { Value = 1100, },
+				Width = Input { Value = 720, },
+				Height = Input { Value = 405, },
+				Depth = Input { Value = 3, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				RendererType = Input { Value = FuID { "RendererOpenGL" }, },
+				["RendererOpenGL.Lighting"] = Input { Value = 0, },
+				["RendererOpenGL.TextureDepth"] = Input { Value = 3, },
+				["RendererOpenGL.TransparencySorting"] = Input { Value = 2, },
+				["RendererOpenGL.WireframeAntialiasing"] = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1335, 820 } },
+		}
+	},
+	ActiveTool = "Renderer3D1"
+}

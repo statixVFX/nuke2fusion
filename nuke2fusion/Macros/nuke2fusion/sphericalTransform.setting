@@ -1,0 +1,12 @@
+{
+	Tools = ordered() {
+		PanoMap1 = PanoMap {
+			CtrlWZoom = false,
+			Inputs = {
+				Rotation = Input { Value = 1, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 884.479, 199.665 } },
+		}
+	},
+	ActiveTool = "PanoMap1"
+}

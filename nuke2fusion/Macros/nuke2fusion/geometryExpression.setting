@@ -1,0 +1,67 @@
+{
+	Tools = ordered() {
+		CustomVertex3D1 = CustomVertex3D {
+			CtrlWZoom = false,
+			Inputs = {
+				LUT1 = Input {
+					SourceOp = "CustomVertex3D1LUT1",
+					Source = "Value",
+				},
+				LUT2 = Input {
+					SourceOp = "CustomVertex3D1LUT2",
+					Source = "Value",
+				},
+				LUT3 = Input {
+					SourceOp = "CustomVertex3D1LUT3",
+					Source = "Value",
+				},
+				LUT4 = Input {
+					SourceOp = "CustomVertex3D1LUT4",
+					Source = "Value",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 1134, 584 } },
+		},
+		CustomVertex3D1LUT1 = LUTBezier {
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+					[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+				}
+			},
+			SplineColor = { Red = 0, Green = 0, Blue = 0 },
+			NameSet = true,
+		},
+		CustomVertex3D1LUT2 = LUTBezier {
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+					[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+				}
+			},
+			SplineColor = { Red = 0, Green = 0, Blue = 0 },
+			NameSet = true,
+		},
+		CustomVertex3D1LUT3 = LUTBezier {
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+					[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+				}
+			},
+			SplineColor = { Red = 0, Green = 0, Blue = 0 },
+			NameSet = true,
+		},
+		CustomVertex3D1LUT4 = LUTBezier {
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+					[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+				}
+			},
+			SplineColor = { Red = 0, Green = 0, Blue = 0 },
+			NameSet = true,
+		}
+	},
+	ActiveTool = "CustomVertex3D1"
+}

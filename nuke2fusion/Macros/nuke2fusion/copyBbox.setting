@@ -1,0 +1,9 @@
+{
+	Tools = ordered() {
+		SetDomain1 = SetDomain {
+			CtrlWZoom = false,
+			ViewInfo = OperatorInfo { Pos = { 870.742, 550.818 } },
+		}
+	},
+	ActiveTool = "SetDomain1"
+}

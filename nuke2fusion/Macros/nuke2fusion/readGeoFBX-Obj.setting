@@ -1,0 +1,14 @@
+{
+	Tools = ordered() {
+		FBXMesh3D1 = SurfaceFBXMesh {
+			CtrlWZoom = false,
+			Inputs = {
+				TransformToWorld = Input { Value = 0, },
+				["ObjectID.ObjectID"] = Input { Value = 5, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 5, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 655.242, 317.288 } },
+		}
+	},
+	ActiveTool = "FBXMesh3D1"
+}

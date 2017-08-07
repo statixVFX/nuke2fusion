@@ -1,0 +1,87 @@
+{
+   Action
+   {
+      ID = "My_ShowHideControls", -- use a prefix to avoid conflict with builtins.
+      Category = "My Stuff",
+      ShortName = "SHC",
+
+      Args =
+      {
+         { "show", Type = "boolean", Required = false }, -- optional, toggles if not specified
+      },
+
+      Targets =
+      {
+         GLView =
+         {
+            Execute =
+            [[
+               local viewer = obj.CurrentViewer
+
+               if args.show == nil then
+                  args.show = not viewer:AreControlsShown()
+               end
+
+               viewer:ShowControls(args.show);
+
+               viewer:Redraw()
+            ]],
+         },
+      },
+   },
+
+   Hotkeys
+   {
+      Target = "FlowView", -- Only one Target per Hotkeys { ... } definition.
+
+      B = "AddTool{ id = 'Blur' }",
+      C = "AddTool{ id = 'ColorCorrector' }",
+      G = "AddTool{ id = 'BrightnessContrast' }",
+      M = "AddTool{ id = 'Merge' }",
+      T = "AddTool{ id = 'Transform' }",
+      R = "AddTool{ id = 'Loader' }",
+
+      W = "AddTool{ id = 'Saver' }",
+      D = "Execute{ cmd = 'obj:Comp():DisableSelectedTools()' }",
+      O = "AddTool{ id = 'Polygon' }",
+      P = "AddTool{ id = 'Paint' }",
+      X = "AddTool{ id = 'Background' }",
+      A = "AddTool{ id = 'MatteControl' }",
+      OEM_PERIOD = "AddTool{ id = 'PipeRouter' }",
+
+      SHIFT_M = "AddTool{ id = 'Merge3D' }",
+      SHIFT_C = "AddTool{ id = 'Camera3D' }",
+      SHIFT_R = "AddTool{ id = 'Renderer3D' }",
+      SHIFT_I = "AddTool{ id = 'ImagePlane3D' }",
+      SHIFT_T = "AddTool{ id = 'Transform3D' }",
+
+      SHIFT_E = "AddTool{ id = 'pEmitter' }",
+      SHIFT_P = "AddTool{ id = 'pRender' }",
+
+      TAB = "Comp_Choose_Tool",
+
+      -- Putting these in FlowView (and any other specific targets) still allows arrows to 'nudge'
+      -- controls in view and control view, but does limit them to only functioning
+      -- in certain places.
+
+      LEFT  = "Time_Step_Back",
+      RIGHT = "Time_Step_Forward",
+   },
+
+   Hotkeys
+   {
+      Target = "GLView",
+
+      F = "Viewer_Scale_Abs{ scale=0 }",
+      Q = "My_ShowHideControls",
+   },
+
+   Hotkeys
+   {
+      Target = "FuFrame",
+
+      J = "Playback_Mode{ play = true, reverse = true}",
+      K = "Playback_Mode{ play = false }",
+      L = "Playback_Mode{ play = true }", -- can leave out play = true if you want toggle.
+   },
+}

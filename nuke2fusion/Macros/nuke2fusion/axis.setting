@@ -1,0 +1,13 @@
+{
+	Tools = ordered() {
+		Locator3D1 = Locator3D {
+			CtrlWZoom = false,
+			Inputs = {
+				Width = Input { Value = 2048, },
+				Height = Input { Value = 1156, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1574, 631 } },
+		}
+	},
+	ActiveTool = "Locator3D1"
+}

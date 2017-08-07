@@ -1,0 +1,10 @@
+{
+	Tools = ordered() {
+		pCustom1 = pCustom {
+			ID = 41,
+			CtrlWZoom = false,
+			ViewInfo = OperatorInfo { Pos = { 1497, 819 } },
+		}
+	},
+	ActiveTool = "pCustom1"
+}

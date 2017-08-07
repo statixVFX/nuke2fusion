@@ -1,0 +1,9 @@
+{
+	Tools = ordered() {
+		FBXExporter1 = ExporterFBX {
+			CtrlWZoom = false,
+			ViewInfo = OperatorInfo { Pos = { 1051.9, 635.816 } },
+		}
+	},
+	ActiveTool = "FBXExporter1"
+}

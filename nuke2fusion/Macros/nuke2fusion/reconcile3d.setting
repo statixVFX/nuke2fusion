@@ -1,0 +1,56 @@
+{
+	Tools = ordered() {
+		Camera3D1 = Camera3D {
+			Inputs = {
+				["Transform3DOp.Translate.Y"] = Input { Value = 0.127, },
+				["Transform3DOp.Translate.Z"] = Input { Value = 0.55, },
+				AoV = Input { Value = 19.2642683071402, },
+				["Stereo.Mode"] = Input { Value = FuID { "OffAxis" }, },
+				FilmGate = Input { Value = FuID { "BMD_URSA_4K_16x9" }, },
+				ApertureW = Input { Value = 0.831496062992126, },
+				ApertureH = Input { Value = 0.467716535433071, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 4, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 4, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 600.644, 1045.47 } },
+		},
+		Note3 = Note {
+			Inputs = {
+				Comments = Input { Value = "Reconcile 3d\n\nPlug a camera into a Locator3D to calculate the 2d coordinates.\n\nYou can then right click a knob / slider on a node (Transform1) and click \"Connect To\" -> Locator3D1 -> Position", }
+			},
+			ViewInfo = StickyNoteInfo {
+				Pos = { 714.483, 1046.21 },
+				Flags = {
+					Expanded = true
+				},
+				Size = { 196, 179.3 }
+			},
+		},
+		Locator3D1 = Locator3D {
+			Inputs = {
+				SceneInput = Input {
+					SourceOp = "Camera3D1",
+					Source = "Output",
+				},
+				["Transform3DOp.Translate.X"] = Input { Value = -0.127, },
+				["Transform3DOp.Translate.Y"] = Input { Value = 0.143, },
+				["Transform3DOp.Translate.Z"] = Input { Value = -0.79, },
+				CameraSettings = Input { Value = 1, },
+				CameraSelector = Input { Value = FuID { "Camera3D1" }, },
+				Width = Input { Value = 2048, },
+				Height = Input { Value = 1156, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 600.644, 1237.3 } },
+		},
+		Transform1 = Transform {
+			CtrlWZoom = false,
+			Inputs = {
+				Center = Input {
+					SourceOp = "Locator3D1",
+					Source = "Position",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 596.001, 1303.78 } },
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	Tools = ordered() {
+		ChannelBooleans1 = ChannelBoolean {
+			CtrlWZoom = false,
+			ViewInfo = OperatorInfo { Pos = { 1230, 686 } },
+		}
+	},
+	ActiveTool = "ChannelBooleans1"
+}
