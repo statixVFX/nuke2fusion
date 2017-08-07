@@ -13,7 +13,9 @@ The Layouts are inspired by the default workspaces in Nuke8+. The following layo
 * Large Viewer
 * Scripting
 
-![alt text]https://github.com/statixVFX/nuke2fusion/blob/master/layouts.jpg)
+<p align="center">
+  <img src="layout.jpg" width="350"/>
+</p>
 
 
 ## Macros (gizmos)
