@@ -13,6 +13,8 @@ The Layouts are inspired by the default workspaces in Nuke8+. The following layo
 * Large Viewer
 * Scripting
 
+![alt text]https://github.com/statixVFX/nuke2fusion/blob/master/layouts.jpg)
+
 
 ## Macros (gizmos)
 * Nuke names to Fusion nodes are provided, but upon creation they change to the Fusion equavalent for future reference.
