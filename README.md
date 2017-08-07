@@ -37,4 +37,5 @@ If you havent set your userprefs yet, you can point to a place to store Fusion d
 * Path map
 * Select "UserPaths" and point it to your downloaded nuke2fusion folder.
 
-
+# Notes
+Fusion is very flexible, make sure you checkout all your option in the Preferences. Hopefully I'll add more sensible defaults there in the next round of nuke2fusion.
