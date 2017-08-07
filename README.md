@@ -24,7 +24,7 @@ The Layouts are inspired by the default workspaces in Nuke8+. The following layo
 
 
 <p align="center">
-  <img src="newNodes.jpg" width=512/>
+  <img src="newNodes.jpg"/>
 </p>
 
 
