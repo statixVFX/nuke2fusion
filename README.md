@@ -23,6 +23,7 @@ The layouts are stored in the Layout/ folder.
 ## Macros (gizmos)
 * Nuke names to Fusion nodes are provided, but upon creation they change to the Fusion equavalent for future reference.
 * Includes a few small snippets of nodes to showcase similar functionality (Position2Points, Reconcile3d etc)
+* All accessible as Nuke names by pressing TAB and writing the name of the nodes.
 
 
 <p align="center">
