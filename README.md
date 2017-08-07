@@ -1,6 +1,6 @@
 # nuke2fusion
 A set of defaults for Fusion 9+ that makes transitioning from Nuke easier. 
-Includes familiar Layouts from Nuke, a set of simlinked names for Nuke that creates Fusion equavalent nodes and hotkeys to mimic Nuke's default.
+Includes familiar Layouts from Nuke, a set of symlinked names/nodes for Nuke that creates Fusion equavalent nodes and hotkeys to mimic Nuke's default.
 
 A work in progress, the community can help expand if needed.
 
