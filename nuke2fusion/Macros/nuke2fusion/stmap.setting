@@ -1,0 +1,44 @@
+{
+	Tools = ordered() {
+		Scale1 = Scale {
+			Inputs = {
+				PixelAspect = Input { Value = { 1, 0.9375 }, },
+				FilterMethod = Input { Value = 3, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 709, 224 } },
+		},
+		Texture1 = Texture {
+			Inputs = {
+				Input = Input {
+					SourceOp = "Scale1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 710, 263 } },
+		},
+		Scale1_1 = Scale {
+			CtrlWZoom = false,
+			Inputs = {
+				PixelAspect = Input { Value = { 1, 0.9375 }, },
+				FilterMethod = Input { Value = 3, },
+				Input = Input {
+					SourceOp = "Texture1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 710, 307 } },
+		},
+		Note1 = Note {
+			Inputs = {
+				Comments = Input { Value = "Plug your UV image into Scale1 and your texture into the green texture input\n\n\nBy scaling the image up before applying the texture transform and subsequently down again you get control over pixel sampling.", }
+			},
+			ViewInfo = StickyNoteInfo {
+				Pos = { 844, 199 },
+				Flags = {
+					Expanded = true
+				},
+				Size = { 196, 193.3 }
+			},
+		}
+	}
+}
