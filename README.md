@@ -28,3 +28,13 @@ letters to indicate 3d nodes.
 * (d) for disable/passthrough node
 * (q) (while focused on the viewer) disables/enables on-screen controls
 
+# Installation
+Clone or copy the folders into your userprefs folder.
+
+Linux :
+/home/statix/Documents/BlackmagicDesign/Fusion/
+
+MacOS :
+
+Win :
+
