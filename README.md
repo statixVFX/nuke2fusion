@@ -22,6 +22,12 @@ The Layouts are inspired by the default workspaces in Nuke8+. The following layo
 * Nuke names to Fusion nodes are provided, but upon creation they change to the Fusion equavalent for future reference.
 * Includes a few small snippets of nodes to showcase similar functionality (Position2Points, Reconcile3d etc)
 
+
+<p align="center">
+  <img src="newNodes.jpg" width=512/>
+</p>
+
+
 ## Hotkeys
 A set of default hotkeys for creating nodes, toggling view controls on/off, disabling nodes and more. With a small addition of using capital 
 letters to indicate 3d nodes.
