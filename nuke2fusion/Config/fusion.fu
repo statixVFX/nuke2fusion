@@ -43,8 +43,8 @@
 
       W = "AddTool{ id = 'Saver' }",
       D = "Execute{ cmd = 'obj:Comp():DisableSelectedTools()' }",
-      O = "AddTool{ id = 'Polygon' }",
-      P = "AddTool{ id = 'Paint' }",
+      -- O = "AddTool{ id = 'Polygon' }",
+      P = "AddTool{ id = 'PolylineMask' }",
       X = "AddTool{ id = 'Background' }",
       A = "AddTool{ id = 'MatteControl' }",
       OEM_PERIOD = "AddTool{ id = 'PipeRouter' }",
