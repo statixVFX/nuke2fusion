@@ -1,0 +1,8 @@
+{
+	Tools = ordered() {
+		ChannelBooleans1 = ChannelBoolean {
+			CtrlWZoom = false,
+		}
+	},
+	ActiveTool = "ChannelBooleans1"
+}

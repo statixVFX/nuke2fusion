@@ -1,0 +1,12 @@
+{
+	Tools = ordered() {
+		min = ChannelBoolean {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Operation = Input { Value = 9, },
+			},
+		}
+	},
+	ActiveTool = "min"
+}

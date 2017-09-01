@@ -1,0 +1,12 @@
+{
+	Tools = ordered() {
+		difference = ChannelBoolean {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Operation = Input { Value = 13, },
+			},
+		}
+	},
+	ActiveTool = "difference"
+}

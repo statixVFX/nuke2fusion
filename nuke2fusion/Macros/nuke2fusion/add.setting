@@ -1,0 +1,12 @@
+{
+	Tools = ordered() {
+		add = ChannelBoolean {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Operation = Input { Value = 1, },
+			},
+		}
+	},
+	ActiveTool = "add"
+}

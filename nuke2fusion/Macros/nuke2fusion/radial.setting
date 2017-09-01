@@ -1,0 +1,215 @@
+{
+	Tools = ordered() {
+		Background = Background {
+			CtrlWZoom = false,
+			NameSet = true,
+			CustomData = {
+				Settings = {
+					[1] = {
+						Tools = ordered() {
+							Background1 = Background {
+								Inputs = {
+									["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" } },
+									GlobalIn = Input { Value = 1001 },
+									Gradient = Input {
+										Value = Gradient {
+											Colors = {
+												[0] = { 0, 0, 0, 1 },
+												[1] = { 1, 1, 1, 1 }
+											}
+										}
+									},
+									GlobalOut = Input { Value = 1100 },
+									Depth = Input { Value = 3 },
+									Height = Input { Value = 1080 },
+									Width = Input { Value = 1920 }
+								},
+								Name = "Background1",
+								CtrlWZoom = false,
+								ViewInfo = OperatorInfo { Pos = { 550, 82.5 } },
+								CustomData = {
+								}
+							}
+						}
+					},
+					[2] = {
+						Tools = ordered() {
+							Background1 = Background {
+								Inputs = {
+									Type = Input { Value = FuID { "Horizontal" } },
+									TopRightGreen = Input { Value = 1 },
+									Width = Input { Value = 1920 },
+									TopRightRed = Input { Value = 1 },
+									["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" } },
+									GlobalIn = Input { Value = 1001 },
+									Gradient = Input {
+										Value = Gradient {
+											Colors = {
+												[0] = { 0, 0, 0, 1 },
+												[1] = { 1, 1, 1, 1 }
+											}
+										}
+									},
+									GlobalOut = Input { Value = 1100 },
+									Depth = Input { Value = 3 },
+									TopRightBlue = Input { Value = 1 },
+									Height = Input { Value = 1080 }
+								},
+								CtrlWZoom = false,
+								ViewInfo = OperatorInfo { Pos = { 550, 82.5 } },
+								CustomData = {
+								}
+							}
+						}
+					},
+					[3] = {
+						Tools = ordered() {
+							Background1 = Background {
+								Inputs = {
+									BottomRightGreen = Input { Value = 1 },
+									Type = Input { Value = FuID { "Corner" } },
+									TopRightGreen = Input { Value = 1 },
+									Width = Input { Value = 1920 },
+									TopRightRed = Input { Value = 1 },
+									["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" } },
+									GlobalIn = Input { Value = 1001 },
+									Gradient = Input {
+										Value = Gradient {
+											Colors = {
+												[0] = { 0, 0, 0, 1 },
+												[1] = { 1, 1, 1, 1 }
+											}
+										}
+									},
+									GlobalOut = Input { Value = 1100 },
+									Depth = Input { Value = 3 },
+									TopLeftRed = Input { Value = 1 },
+									Height = Input { Value = 1080 }
+								},
+								CtrlWZoom = false,
+								ViewInfo = OperatorInfo { Pos = { 550, 82.5 } },
+								CustomData = {
+								}
+							}
+						}
+					},
+					[4] = {
+						Tools = ordered() {
+							Background1 = Background {
+								Inputs = {
+									BottomRightGreen = Input { Value = 1 },
+									Type = Input { Value = FuID { "Vertical" } },
+									Gradient = Input {
+										Value = Gradient {
+											Colors = {
+												[0] = { 0, 0, 0, 1 },
+												[1] = { 1, 1, 1, 1 }
+											}
+										}
+									},
+									TopRightGreen = Input { Value = 1 },
+									TopLeftBlue = Input { Value = 1 },
+									Width = Input { Value = 1920 },
+									TopRightRed = Input { Value = 1 },
+									["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" } },
+									GlobalIn = Input { Value = 1001 },
+									TopLeftGreen = Input { Value = 1 },
+									GlobalOut = Input { Value = 1100 },
+									Depth = Input { Value = 3 },
+									TopLeftRed = Input { Value = 1 },
+									Height = Input { Value = 1080 }
+								},
+								CtrlWZoom = false,
+								ViewInfo = OperatorInfo { Pos = { 550, 82.5 } },
+								CustomData = {
+								}
+							}
+						}
+					},
+					[5] = {
+						Tools = ordered() {
+							Background1 = Background {
+								Inputs = {
+									BottomRightGreen = Input { Value = 1 },
+									TopRightGreen = Input { Value = 1 },
+									Width = Input { Value = 1920 },
+									TopRightRed = Input { Value = 1 },
+									["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" } },
+									GlobalIn = Input { Value = 1001 },
+									Gradient = Input {
+										Value = Gradient {
+											Colors = {
+												[0] = { 0, 0, 0, 1 },
+												[1] = { 1, 1, 1, 1 }
+											}
+										}
+									},
+									GlobalOut = Input { Value = 1100 },
+									Depth = Input { Value = 3 },
+									TopLeftRed = Input { Value = 1 },
+									Height = Input { Value = 1080 }
+								},
+								CtrlWZoom = false,
+								ViewInfo = OperatorInfo { Pos = { 550, 82.5 } },
+								CustomData = {
+								}
+							}
+						}
+					},
+					[6] = {
+						Tools = ordered() {
+							Background1 = Background {
+								Inputs = {
+									BottomRightGreen = Input { Value = 1 },
+									TopRightGreen = Input { Value = 1 },
+									Width = Input { Value = 1920 },
+									TopRightRed = Input { Value = 1 },
+									["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" } },
+									GlobalIn = Input { Value = 1001 },
+									Height = Input { Value = 1080 },
+									GlobalOut = Input { Value = 1100 },
+									Gradient = Input {
+										Value = Gradient {
+											Colors = {
+												[0] = { 0, 0, 0, 1 },
+												[1] = { 1, 1, 1, 1 }
+											}
+										}
+									},
+									TopLeftRed = Input { Value = 1 },
+									Depth = Input { Value = 3 }
+								},
+								CtrlWZoom = false,
+								ViewInfo = OperatorInfo { Pos = { 605, 49.5 } },
+								CustomData = {
+								}
+							}
+						}
+					}
+				}
+			},
+			Inputs = {
+				GlobalIn = Input { Value = 1001, },
+				GlobalOut = Input { Value = 1100, },
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				Depth = Input { Value = 3, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Type = Input { Value = FuID { "Gradient" }, },
+				GradientType = Input { Value = FuID { "Radial" }, },
+				Start = Input { Value = { 0.5, 0.5 }, },
+				End = Input { Value = { 0.75, 0.5 }, },
+				Gradient = Input {
+					Value = Gradient {
+						Colors = {
+							[0] = { 1, 1, 1, 1 },
+							[1] = { 0, 0, 0, 1 }
+						}
+					},
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 550, 742.5 } },
+		}
+	},
+	ActiveTool = "Background"
+}

@@ -1,0 +1,8 @@
+{
+	Tools = ordered() {
+		RankFilter1 = RankFilter {
+			CtrlWZoom = false,
+		}
+	},
+	ActiveTool = "RankFilter1"
+}

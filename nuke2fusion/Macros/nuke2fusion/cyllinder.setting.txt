@@ -1,0 +1,16 @@
+{
+	Tools = ordered() {
+		Shape3D1 = Shape3D {
+			CtrlWZoom = false,
+			Inputs = {
+				Shape = Input { Value = FuID { "SurfaceCylinderInputs" }, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 1, },
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 1, },
+				["SurfaceSphereInputs.ObjectID.ObjectID"] = Input { Value = 2, },
+				["SurfaceCylinderInputs.ObjectID.ObjectID"] = Input { Value = 3, }
+			},
+			ViewInfo = OperatorInfo { Pos = { 330, 478.5 } },
+		}
+	},
+	ActiveTool = "Shape3D1"
+}

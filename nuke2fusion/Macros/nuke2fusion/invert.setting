@@ -1,0 +1,12 @@
+{
+	Tools = ordered() {
+		invert = ChannelBoolean {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Operation = Input { Value = 10, },
+			},
+		}
+	},
+	ActiveTool = "invert"
+}

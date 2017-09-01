@@ -1,0 +1,13 @@
+{
+	Tools = ordered() {
+		ImagePlane3D1 = ImagePlane3D {
+			CtrlWZoom = false,
+			Inputs = {
+				["SurfacePlaneInputs.ObjectID.ObjectID"] = Input { Value = 5, },
+				["MtlStdInputs.MaterialID"] = Input { Value = 2, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 550, 577.5 } },
+		}
+	},
+	ActiveTool = "ImagePlane3D1"
+}

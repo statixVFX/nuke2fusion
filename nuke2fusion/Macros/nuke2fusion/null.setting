@@ -1,0 +1,8 @@
+{
+	Tools = ordered() {
+		PipeRouter1 = PipeRouter {
+			CtrlWZoom = false,
+		}
+	},
+	ActiveTool = "PipeRouter1"
+}

@@ -1,0 +1,12 @@
+{
+	Tools = ordered() {
+		max = ChannelBoolean {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Operation = Input { Value = 8, },
+			},
+		}
+	},
+	ActiveTool = "max"
+}

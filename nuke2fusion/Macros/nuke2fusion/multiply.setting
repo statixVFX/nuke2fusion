@@ -1,0 +1,12 @@
+{
+	Tools = ordered() {
+		multiply = ChannelBoolean {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Operation = Input { Value = 6, },
+			},
+		}
+	},
+	ActiveTool = "multiply"
+}

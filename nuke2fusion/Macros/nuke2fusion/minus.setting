@@ -1,0 +1,12 @@
+{
+	Tools = ordered() {
+		subtract = ChannelBoolean {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Operation = Input { Value = 2, },
+			},
+		}
+	},
+	ActiveTool = "subtract"
+}

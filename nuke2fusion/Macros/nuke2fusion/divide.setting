@@ -1,0 +1,12 @@
+{
+	Tools = ordered() {
+		divide = ChannelBoolean {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Operation = Input { Value = 7, },
+			},
+		}
+	},
+	ActiveTool = "divide"
+}
