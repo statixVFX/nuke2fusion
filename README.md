@@ -41,6 +41,12 @@ letters to indicate 3d nodes.
 * Upper case letters for 3d nodes (M)erge3d, (R)enderer3d, (T)ransform3d etc..
 * (d) for disable/passthrough node
 * (q) (while focused on the viewer) disables/enables on-screen controls
+* (m)erge and (M)erge3D automatically tries to connect to selected nodes 
+
+<p align="center">
+  <img src="images/stx_merge3DConnect.gif"/>
+  <img src="images/stx_mergeConnect.gif"/>
+</p>
 
 The hotkeys can be configured and edited under the Config/fusion.fu file.
 
