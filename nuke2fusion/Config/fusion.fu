@@ -41,6 +41,9 @@
       T = "AddTool{ id = 'Transform' }",
       R = "AddTool{ id = 'Loader' }",
 
+	 
+      M = "RunScript{filename = 'Scripts:/Utility/stx_mergeConnect.lua'}",
+    
       W = "AddTool{ id = 'Saver' }",
       D = "Execute{ cmd = 'obj:Comp():DisableSelectedTools()' }",
       -- O = "AddTool{ id = 'Polygon' }",
@@ -49,7 +52,7 @@
       A = "AddTool{ id = 'MatteControl' }",
       OEM_PERIOD = "AddTool{ id = 'PipeRouter' }",
 
-      SHIFT_M = "AddTool{ id = 'Merge3D' }",
+      SHIFT_M = "RunScript{filename = 'Scripts:/Utility/stx_merge3DConnect.lua'}",
       SHIFT_C = "AddTool{ id = 'Camera3D' }",
       SHIFT_R = "AddTool{ id = 'Renderer3D' }",
       SHIFT_I = "AddTool{ id = 'ImagePlane3D' }",
