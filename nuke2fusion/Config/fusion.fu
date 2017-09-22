@@ -43,7 +43,9 @@
 
 	 
       M = "RunScript{filename = 'Scripts:/Utility/stx_mergeConnect.lua'}",
-    
+      L = "RunScript{filename = 'Scripts:/Utility/stx_kissConnect.lua'}",
+  
+   
       W = "AddTool{ id = 'Saver' }",
       D = "Execute{ cmd = 'obj:Comp():DisableSelectedTools()' }",
       -- O = "AddTool{ id = 'Polygon' }",
