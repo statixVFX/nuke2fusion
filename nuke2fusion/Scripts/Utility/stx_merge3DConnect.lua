@@ -1,5 +1,8 @@
 --stx_merge3DConnect
---v1.0
+--v1.1
+--1.0 - release
+--1.1 - fixed node creation position when nothing is selected
+--
 --Creates a merge node and connects it to all the selected nodes if they are 3d
 --Ignores all other selections
 
@@ -27,29 +30,31 @@ end
 connections = tablelength(selectedNodes)
 
 -- create merge node, and store some position variables
-mg1 = comp:Merge3D()
+mg1 = comp:AddTool("Merge3D", -32768, -32768)
 flow = comp.CurrentFrame.FlowView
 startX, startY = flow:GetPos(selectedNodes[1])
 
 xx = 0
 yy = 0 
-
--- loop over number of selected nodes
 for i=1,connections,1 do 
 
 	-- connect the inputs, iterate with an i on the string
 	mg1:ConnectInput("SceneInput"..i, selectedNodes[i])
-
 	
 	-- update positions
 	x1, y1 = flow:GetPos(selectedNodes[i])
 	xx = xx + x1 - startX
 	yy = yy + y1 - startY
-
 end		
 
 -- set final position to be in the center of all the selections
-flow:SetPos(mg1, startX + (xx/connections), startY + (yy/connections))			
+if selectedNodes[1] == nil then
+--	flow:SetPos(mg1, -32768, -32768)
+
+	else	
+		flow:SetPos(mg1, startX + (xx/connections), startY + (yy/connections))			
+
+end
 
 -- unlock
 comp:Unlock()
