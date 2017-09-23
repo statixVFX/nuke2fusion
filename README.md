@@ -41,7 +41,8 @@ letters to indicate 3d nodes.
 * Upper case letters for 3d nodes (M)erge3d, (R)enderer3d, (T)ransform3d etc..
 * (d) for disable/passthrough node
 * (q) (while focused on the viewer) disables/enables on-screen controls
-* (m)erge and (M)erge3D automatically tries to connect to selected nodes 
+* (m)erge and (M)erge3D automatically tries to connect to selected nodes
+* (k) will try to connect selected node to closest node output. Aka kiss.
 
 <p align="center">
   <img src="images/stx_merge3DConnect.gif"/>
