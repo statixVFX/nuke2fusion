@@ -43,6 +43,7 @@ letters to indicate 3d nodes.
 * (q) (while focused on the viewer) disables/enables on-screen controls
 * (m)erge and (M)erge3D automatically tries to connect to selected nodes
 * (k) will try to connect selected node to closest node output. Aka kiss.
+* (.) inserts a elbow/dot node.
 
 <p align="center">
   <img src="images/stx_merge3DConnect.gif"/>
@@ -61,4 +62,4 @@ If you havent set your userprefs yet, you can point to a place to store Fusion d
 * Select "UserPaths" and point it to your downloaded nuke2fusion folder.
 
 # Notes
-Fusion is very flexible, make sure you checkout all your option in the Preferences. Hopefully I'll add more sensible defaults there in the next round of nuke2fusion.
+Fusion is very flexible, make sure you checkout all your options in the Preferences. 
