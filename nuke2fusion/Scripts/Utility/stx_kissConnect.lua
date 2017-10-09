@@ -1,8 +1,9 @@
 --stx_kissConnect
---v1.0
+--v1.1
+-- disabled comp locking, caused some issues
 
 -- lock comp
-comp:Lock()
+-- comp:Lock()
 
 -- get selection 
 selectedNodes = comp:GetToolList(true)
@@ -44,7 +45,7 @@ for k,v in ipairs(distances) do
     print(v[1], ' == ', v[2])
 end
 
---selectedNodes[1]:ConnectInput("Background", distances[2])
+
 selectedNodes[1]:ConnectInput("Input", distances[2][1])
 selectedNodes[1]:ConnectInput("Background", distances[2][1])
 selectedNodes[1]:ConnectInput("MaterialInput", distances[2][1])
@@ -53,4 +54,4 @@ selectedNodes[1]:ConnectInput("SceneInput1", distances[2][1])
 
 --dump(allNodes)
 
-comp:Unlock()
+--comp:Unlock()
