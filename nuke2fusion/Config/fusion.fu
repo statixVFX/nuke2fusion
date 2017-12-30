@@ -43,7 +43,7 @@
 
 	 
       M = "RunScript{filename = 'Scripts:/Utility/stx_mergeConnect.lua'}",
-      K = "RunScript{filename = 'Scripts:/Utility/stx_kissConnect.lua'}",
+      -- K = "RunScript{filename = 'Scripts:/Utility/stx_kissConnect.lua'}",
   
    
       W = "AddTool{ id = 'Saver' }",
